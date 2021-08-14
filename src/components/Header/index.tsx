@@ -8,7 +8,7 @@ import { Wrapper, Content, LogoImg, TMDBLogoImg } from "./Header.styles";
 
 // function Header() {}
 
-const Header = () => (
+const Header: React.FC = () => (
   <Wrapper>
     <Content>
       <Link to="/">
